@@ -1,0 +1,164 @@
+Possible file format: MS-DOS executable (EXE) (C:\Program Files\IDA Pro 7.5\loaders\dos.dll)
+Possible file format: Portable executable for 80386 (PE) (C:\Program Files\IDA Pro 7.5\loaders\pe.dll)
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+134217728 16384 8192 allocating memory for b-tree...
+192888832 23546 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+327368704            total memory allocated
+
+Loading file 'C:\Users\User\Desktop\office-hooker\hooking_targets\EXCEL.exe' into database...
+Detected file format: Portable executable for 80386 (PE)
+Loading processor module C:\Program Files\IDA Pro 7.5\procs\pc.dll for metapc...Initializing processor module metapc...OK
+Autoanalysis subsystem has been initialized.
+  0. Creating a new segment  (00401000-02638000) ... ... OK
+  1. Creating a new segment  (02638000-02AB4000) ... ... OK
+  2. Creating a new segment  (02AB4000-02B63000) ... ... OK
+  3. Creating a new segment  (02B63000-02B65000) ... ... OK
+  4. Creating a new segment  (02B65000-02B66000) ... ... OK
+Reading exports directory...
+Reading imports directory...
+  5. Creating a new segment  (00400000-00401000) ... ... OK
+Applying fixups...
+  6. Creating a new segment  (02ABAB50-02B63000) ... ... OK
+The input file was linked with debug information
+ and the symbol filename is:
+"d:\dbs\el\aug\Target\x86\ship\postc2r\x-none\excel.pdb"
+Do you want to look for this file at the specified path
+and the Microsoft Symbol Server?
+ -> ~Y~es
+PDB: using PDBIDA provider
+PDB: downloading http://msdl.microsoft.com/download/symbols/excel.pdb/057488BC75AE4ABCB35F11BB68327CFD2/excel.pdb => C:\Users\User\AppData\Local\Temp\ida\excel.pdb\057488BC75AE4ABCB35F11BB68327CFD2\excel.pdb
+Could not find PDB file 'excel.pdb'.
+Please check _NT_SYMBOL_PATH
+C:\Users\User\Desktop\office-hooker\hooking_targets\EXCEL.exe: failed to load pdb info.
+
+Do you want to browse for the pdb file on disk? -> ~Y~es
+Assuming __cdecl calling convention by default
+Type library 'mssdk_win7' loaded. Applying types...
+Types applied to 856 names.
+Plan  FLIRT signature: SEH for vc7-14
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+File 'C:\Users\User\Desktop\office-hooker\hooking_targets\EXCEL.exe' has been successfully loaded into the database.
+Hex-Rays Decompiler plugin has been loaded (v7.5.0.200519)
+  License: 57-BD5B-7F44-5D Institute of Information Engineering,Chinese Academy of Sciences (1 user)
+  The hotkeys are F5: decompile, Ctrl-F5: decompile all.
+  Please check the Edit/Plugins menu for more informaton.
+IDAPython Hex-Rays bindings initialized.
+IDA is analysing the input file...
+You may start to explore the input file right now.
+Using FLIRT signature: SEH for vc7-14
+Possible file format: MS-DOS executable (EXE) (C:\Program Files\IDA Pro 7.5\loaders\dos.dll)
+Possible file format: Portable executable for 80386 (PE) (C:\Program Files\IDA Pro 7.5\loaders\pe.dll)
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+134217728 16384 8192 allocating memory for b-tree...
+192888832 23546 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+327368704            total memory allocated
+
+Loading file 'C:\Users\User\Desktop\office-hooker\hooking_targets\Excel.exe' into database...
+Detected file format: Portable executable for 80386 (PE)
+Loading processor module C:\Program Files\IDA Pro 7.5\procs\pc.dll for metapc...Initializing processor module metapc...OK
+Autoanalysis subsystem has been initialized.
+  0. Creating a new segment  (00401000-02638000) ... ... OK
+  1. Creating a new segment  (02638000-02AB4000) ... ... OK
+  2. Creating a new segment  (02AB4000-02B63000) ... ... OK
+  3. Creating a new segment  (02B63000-02B65000) ... ... OK
+  4. Creating a new segment  (02B65000-02B66000) ... ... OK
+Reading exports directory...
+Reading imports directory...
+  5. Creating a new segment  (00400000-00401000) ... ... OK
+Applying fixups...
+  6. Creating a new segment  (02ABAB50-02B63000) ... ... OK
+The input file was linked with debug information
+ and the symbol filename is:
+"d:\dbs\el\aug\Target\x86\ship\postc2r\x-none\excel.pdb"
+Do you want to look for this file at the specified path
+and the Microsoft Symbol Server?
+ -> ~Y~es
+PDB: using PDBIDA provider
+PDB: downloading http://msdl.microsoft.com/download/symbols/excel.pdb/057488BC75AE4ABCB35F11BB68327CFD2/excel.pdb => C:\Users\User\AppData\Local\Temp\ida\excel.pdb\057488BC75AE4ABCB35F11BB68327CFD2\excel.pdb
+Could not find PDB file 'excel.pdb'.
+Please check _NT_SYMBOL_PATH
+C:\Users\User\Desktop\office-hooker\hooking_targets\Excel.exe: failed to load pdb info.
+
+Do you want to browse for the pdb file on disk? -> ~Y~es
+Assuming __cdecl calling convention by default
+Type library 'mssdk_win7' loaded. Applying types...
+Types applied to 856 names.
+Plan  FLIRT signature: SEH for vc7-14
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+File 'C:\Users\User\Desktop\office-hooker\hooking_targets\Excel.exe' has been successfully loaded into the database.
+Hex-Rays Decompiler plugin has been loaded (v7.5.0.200519)
+  License: 57-BD5B-7F44-5D Institute of Information Engineering,Chinese Academy of Sciences (1 user)
+  The hotkeys are F5: decompile, Ctrl-F5: decompile all.
+  Please check the Edit/Plugins menu for more informaton.
+IDAPython Hex-Rays bindings initialized.
+IDA is analysing the input file...
+You may start to explore the input file right now.
+Possible file format: MS-DOS executable (EXE) (C:\Program Files\IDA Pro 7.5\loaders\dos.dll)
+Possible file format: Portable executable for 80386 (PE) (C:\Program Files\IDA Pro 7.5\loaders\pe.dll)
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+134217728 16384 8192 allocating memory for b-tree...
+192888832 23546 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+327368704            total memory allocated
+
+Loading file 'C:\Users\User\Desktop\office-hooker\hooking_targets\Excel.exe' into database...
+Detected file format: Portable executable for 80386 (PE)
+Loading processor module C:\Program Files\IDA Pro 7.5\procs\pc.dll for metapc...Initializing processor module metapc...OK
+Autoanalysis subsystem has been initialized.
+  0. Creating a new segment  (00401000-02638000) ... ... OK
+  1. Creating a new segment  (02638000-02AB4000) ... ... OK
+  2. Creating a new segment  (02AB4000-02B63000) ... ... OK
+  3. Creating a new segment  (02B63000-02B65000) ... ... OK
+  4. Creating a new segment  (02B65000-02B66000) ... ... OK
+Reading exports directory...
+Reading imports directory...
+  5. Creating a new segment  (00400000-00401000) ... ... OK
+Applying fixups...
+  6. Creating a new segment  (02ABAB50-02B63000) ... ... OK
+The input file was linked with debug information
+ and the symbol filename is:
+"d:\dbs\el\aug\Target\x86\ship\postc2r\x-none\excel.pdb"
+Do you want to look for this file at the specified path
+and the Microsoft Symbol Server?
+ -> ~Y~es
+PDB: using PDBIDA provider
+PDB: downloading http://msdl.microsoft.com/download/symbols/excel.pdb/057488BC75AE4ABCB35F11BB68327CFD2/excel.pdb => C:\Users\User\AppData\Local\Temp\ida\excel.pdb\057488BC75AE4ABCB35F11BB68327CFD2\excel.pdb
+Could not find PDB file 'excel.pdb'.
+Please check _NT_SYMBOL_PATH
+C:\Users\User\Desktop\office-hooker\hooking_targets\Excel.exe: failed to load pdb info.
+
+Do you want to browse for the pdb file on disk? -> ~Y~es
+Assuming __cdecl calling convention by default
+Type library 'mssdk_win7' loaded. Applying types...
+Types applied to 856 names.
+Plan  FLIRT signature: SEH for vc7-14
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+File 'C:\Users\User\Desktop\office-hooker\hooking_targets\Excel.exe' has been successfully loaded into the database.
+Hex-Rays Decompiler plugin has been loaded (v7.5.0.200519)
+  License: 57-BD5B-7F44-5D Institute of Information Engineering,Chinese Academy of Sciences (1 user)
+  The hotkeys are F5: decompile, Ctrl-F5: decompile all.
+  Please check the Edit/Plugins menu for more informaton.
+IDAPython Hex-Rays bindings initialized.
+IDA is analysing the input file...
+You may start to explore the input file right now.
+Using FLIRT signature: SEH for vc7-14
+Propagating type information...
+Function argument information has been propagated
+The initial autoanalysis has been finished.
+Enum function list length: 126406
+Flushing buffers, please wait...ok
+Unloading IDP module C:\Program Files\IDA Pro 7.5\procs\pc.dll...

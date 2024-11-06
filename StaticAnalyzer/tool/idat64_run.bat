@@ -1,0 +1,1 @@
+"C:\Program Files\IDA Pro 7.5\idat64.exe" -B %1

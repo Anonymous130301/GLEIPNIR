@@ -1,0 +1,152 @@
+Possible file format: MS-DOS executable (EXE) (C:\Program Files\IDA Pro 7.5\loaders\dos.dll)
+Possible file format: Portable executable for 80386 (PE) (C:\Program Files\IDA Pro 7.5\loaders\pe.dll)
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+  6463488   789 8192 allocating memory for b-tree...
+  6463488   789 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+ 13189120            total memory allocated
+
+Loading file 'C:\Users\User\Desktop\office-hooker\hooking_targets\WinWord.exe' into database...
+Detected file format: Portable executable for 80386 (PE)
+Loading processor module C:\Program Files\IDA Pro 7.5\procs\pc.dll for metapc...Initializing processor module metapc...OK
+Autoanalysis subsystem has been initialized.
+  0. Creating a new segment  (00401000-00403000) ... ... OK
+  1. Creating a new segment  (00403000-00404000) ... ... OK
+  2. Creating a new segment  (00404000-00405000) ... ... OK
+  3. Creating a new segment  (00405000-00406000) ... ... OK
+Reading exports directory...
+Reading imports directory...
+Applying fixups...
+The input file was linked with debug information
+ and the symbol filename is:
+"d:\dbs\el\aug\Target\x86\ship\postc2r\x-none\winword.pdb"
+Do you want to look for this file at the specified path
+and the Microsoft Symbol Server?
+ -> ~Y~es
+PDB: using PDBIDA provider
+PDB: downloading http://msdl.microsoft.com/download/symbols/winword.pdb/47639132C3E346CE9BD705D38CA442712/winword.pdb => C:\Users\User\AppData\Local\Temp\ida\winword.pdb\47639132C3E346CE9BD705D38CA442712\winword.pdb
+Could not find PDB file 'winword.pdb'.
+Please check _NT_SYMBOL_PATH
+C:\Users\User\Desktop\office-hooker\hooking_targets\WinWord.exe: failed to load pdb info.
+
+Do you want to browse for the pdb file on disk? -> ~Y~es
+Type library 'mssdk_win7' loaded. Applying types...
+Types applied to 23 names.
+Plan  FLIRT signature: SEH for vc7-14
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+File 'C:\Users\User\Desktop\office-hooker\hooking_targets\WinWord.exe' has been successfully loaded into the database.
+Hex-Rays Decompiler plugin has been loaded (v7.5.0.200519)
+  License: 57-BD5B-7F44-5D Institute of Information Engineering,Chinese Academy of Sciences (1 user)
+  The hotkeys are F5: decompile, Ctrl-F5: decompile all.
+  Please check the Edit/Plugins menu for more informaton.
+IDAPython Hex-Rays bindings initialized.
+IDA is analysing the input file...
+You may start to explore the input file right now.
+Using FLIRT signature: SEH for vc7-14
+Propagating type information...
+Function argument information has been propagated
+The initial autoanalysis has been finished.
+Enum function list length: 88
+Flushing buffers, please wait...ok
+Unloading IDP module C:\Program Files\IDA Pro 7.5\procs\pc.dll...
+Possible file format: MS-DOS executable (EXE) (C:\Program Files\IDA Pro 7.5\loaders\dos.dll)
+Possible file format: Portable executable for 80386 (PE) (C:\Program Files\IDA Pro 7.5\loaders\pe.dll)
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+  6463488   789 8192 allocating memory for b-tree...
+  6463488   789 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+ 13189120            total memory allocated
+
+Loading file 'C:\Users\User\Desktop\office-hooker\hooking_targets\WinWord.exe' into database...
+Detected file format: Portable executable for 80386 (PE)
+Loading processor module C:\Program Files\IDA Pro 7.5\procs\pc.dll for metapc...Initializing processor module metapc...OK
+Autoanalysis subsystem has been initialized.
+  0. Creating a new segment  (00401000-00403000) ... ... OK
+  1. Creating a new segment  (00403000-00404000) ... ... OK
+  2. Creating a new segment  (00404000-00405000) ... ... OK
+  3. Creating a new segment  (00405000-00406000) ... ... OK
+Reading exports directory...
+Reading imports directory...
+Applying fixups...
+The input file was linked with debug information
+ and the symbol filename is:
+"d:\dbs\el\aug\Target\x86\ship\postc2r\x-none\winword.pdb"
+Do you want to look for this file at the specified path
+and the Microsoft Symbol Server?
+ -> ~Y~es
+PDB: using PDBIDA provider
+PDB: downloading http://msdl.microsoft.com/download/symbols/winword.pdb/47639132C3E346CE9BD705D38CA442712/winword.pdb => C:\Users\User\AppData\Local\Temp\ida\winword.pdb\47639132C3E346CE9BD705D38CA442712\winword.pdb
+Could not find PDB file 'winword.pdb'.
+Please check _NT_SYMBOL_PATH
+C:\Users\User\Desktop\office-hooker\hooking_targets\WinWord.exe: failed to load pdb info.
+
+Do you want to browse for the pdb file on disk? -> ~Y~es
+Type library 'mssdk_win7' loaded. Applying types...
+Types applied to 23 names.
+Plan  FLIRT signature: SEH for vc7-14
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+File 'C:\Users\User\Desktop\office-hooker\hooking_targets\WinWord.exe' has been successfully loaded into the database.
+Hex-Rays Decompiler plugin has been loaded (v7.5.0.200519)
+  License: 57-BD5B-7F44-5D Institute of Information Engineering,Chinese Academy of Sciences (1 user)
+  The hotkeys are F5: decompile, Ctrl-F5: decompile all.
+  Please check the Edit/Plugins menu for more informaton.
+IDAPython Hex-Rays bindings initialized.
+IDA is analysing the input file...
+You may start to explore the input file right now.
+Using FLIRT signature: SEH for vc7-14
+Propagating type information...
+Function argument information has been propagated
+The initial autoanalysis has been finished.
+Enum function list length: 88
+Flushing buffers, please wait...ok
+Unloading IDP module C:\Program Files\IDA Pro 7.5\procs\pc.dll...
+Possible file format: MS-DOS executable (EXE) (C:\Program Files\IDA Pro 7.5\loaders\dos.dll)
+Possible file format: Portable executable for 80386 (PE) (C:\Program Files\IDA Pro 7.5\loaders\pe.dll)
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+  6463488   789 8192 allocating memory for b-tree...
+  6463488   789 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+ 13189120            total memory allocated
+
+Loading file 'C:\Users\User\Desktop\office-hooker\hooking_targets\WinWord.exe' into database...
+Detected file format: Portable executable for 80386 (PE)
+Loading processor module C:\Program Files\IDA Pro 7.5\procs\pc.dll for metapc...Initializing processor module metapc...OK
+Autoanalysis subsystem has been initialized.
+  0. Creating a new segment  (00401000-00403000) ... ... OK
+  1. Creating a new segment  (00403000-00404000) ... ... OK
+  2. Creating a new segment  (00404000-00405000) ... ... OK
+  3. Creating a new segment  (00405000-00406000) ... ... OK
+Reading exports directory...
+Reading imports directory...
+Applying fixups...
+Type library 'mssdk_win7' loaded. Applying types...
+Types applied to 23 names.
+Plan  FLIRT signature: SEH for vc7-14
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+File 'C:\Users\User\Desktop\office-hooker\hooking_targets\WinWord.exe' has been successfully loaded into the database.
+Hex-Rays Decompiler plugin has been loaded (v7.5.0.200519)
+  License: 57-BD5B-7F44-5D Institute of Information Engineering,Chinese Academy of Sciences (1 user)
+  The hotkeys are F5: decompile, Ctrl-F5: decompile all.
+  Please check the Edit/Plugins menu for more informaton.
+IDAPython Hex-Rays bindings initialized.
+IDA is analysing the input file...
+You may start to explore the input file right now.
+Using FLIRT signature: SEH for vc7-14
+Propagating type information...
+Function argument information has been propagated
+The initial autoanalysis has been finished.
+Enum function list length: 88
+Flushing buffers, please wait...ok
+Unloading IDP module C:\Program Files\IDA Pro 7.5\procs\pc.dll...

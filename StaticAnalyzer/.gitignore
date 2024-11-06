@@ -1,0 +1,6 @@
+# ignore cached files
+__pycache__
+mutations
+/binaryStorage/
+/temp/
+/test_temp/

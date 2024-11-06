@@ -1,0 +1,48 @@
+Database C:\Users\User\Desktop\office-hooker\hooking_targets\x86\EXCEL.exe.idb already exists.
+Do you want to overwrite it? -> ~L~oad existing
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+134217728 16384 8192 allocating memory for b-tree...
+164913152 20131 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+299393024            total memory allocated
+
+Loading processor module C:\Program Files\IDA Pro 7.5\procs\pc.dll for metapc...Initializing processor module metapc...OK
+Loading type libraries...
+Autoanalysis subsystem has been initialized.
+Database for file 'Excel.exe' has been loaded.
+Hex-Rays Decompiler plugin has been loaded (v7.5.0.200519)
+  License: 57-BD5B-7F44-5D Institute of Information Engineering,Chinese Academy of Sciences (1 user)
+  The hotkeys are F5: decompile, Ctrl-F5: decompile all.
+  Please check the Edit/Plugins menu for more informaton.
+IDAPython Hex-Rays bindings initialized.
+Enum function list length: 126406
+[-] Write to Log file as a simple Test action. 
+Flushing buffers, please wait...ok
+Unloading IDP module C:\Program Files\IDA Pro 7.5\procs\pc.dll...
+Database C:\Users\User\Desktop\office-hooker\hooking_targets\x86\EXCEL.exe.idb already exists.
+Do you want to overwrite it? -> ~L~oad existing
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+134217728 16384 8192 allocating memory for b-tree...
+164913152 20131 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+299393024            total memory allocated
+
+Loading processor module C:\Program Files\IDA Pro 7.5\procs\pc.dll for metapc...Initializing processor module metapc...OK
+Loading type libraries...
+Autoanalysis subsystem has been initialized.
+Database for file 'Excel.exe' has been loaded.
+Hex-Rays Decompiler plugin has been loaded (v7.5.0.200519)
+  License: 57-BD5B-7F44-5D Institute of Information Engineering,Chinese Academy of Sciences (1 user)
+  The hotkeys are F5: decompile, Ctrl-F5: decompile all.
+  Please check the Edit/Plugins menu for more informaton.
+IDAPython Hex-Rays bindings initialized.
+Enum function list length: 126406
+[-] Write to Log file as a simple Test action. 
+Flushing buffers, please wait...ok
+Unloading IDP module C:\Program Files\IDA Pro 7.5\procs\pc.dll...

@@ -1,0 +1,125 @@
+Possible file format: MS-DOS executable (EXE) (C:\Program Files\IDA Pro 7.5\loaders\dos64.dll)
+Possible file format: Portable executable for AMD64 (PE) (C:\Program Files\IDA Pro 7.5\loaders\pe64.dll)
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+  3080192   376 8192 allocating memory for b-tree...
+  3080192   376 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+  6422528            total memory allocated
+
+Loading file 'C:\Users\User\Desktop\office-hooker\targets\kernel32.dll' into database...
+Detected file format: Portable executable for AMD64 (PE)
+Loading processor module C:\Program Files\IDA Pro 7.5\procs\pc64.dll for metapc...Initializing processor module metapc...OK
+Autoanalysis subsystem has been initialized.
+  0. Creating a new segment  (0000000180001000-0000000180080000) ... ... OK
+  1. Creating a new segment  (0000000180080000-00000001800B3000) ... ... OK
+  2. Creating a new segment  (00000001800B3000-00000001800B5000) ... ... OK
+  3. Creating a new segment  (00000001800B5000-00000001800BB000) ... ... OK
+  4. Creating a new segment  (00000001800BB000-00000001800BC000) ... ... OK
+Reading exports directory...
+Reading imports directory...
+  5. Creating a new segment  (0000000180000000-0000000180001000) ... ... OK
+Reading exception directory (.pdata)...
+Applying fixups...
+  6. Creating a new segment  (0000000180084218-00000001800B3000) ... ... OK
+  7. Creating a new segment  (00000001800817C0-0000000180084218) ... ... OK
+  8. Creating a new segment  (00000001800BB060-00000001800BC000) ... ... OK
+The input file was linked with debug information
+ and the symbol filename is:
+"kernel32.pdb"
+Do you want to look for this file at the specified path
+and the Microsoft Symbol Server?
+ -> ~Y~es
+PDB: using PDBIDA provider
+PDB: downloading http://msdl.microsoft.com/download/symbols/kernel32.pdb/1DEB36EBC19F93893E14684776D19DB31/kernel32.pdb => C:\Users\User\AppData\Local\Temp\ida\kernel32.pdb\1DEB36EBC19F93893E14684776D19DB31\kernel32.pdb
+PDB: loading C:\Users\User\AppData\Local\Temp\ida\kernel32.pdb\1DEB36EBC19F93893E14684776D19DB31\kernel32.pdb
+PDB: There is no type information
+Type library 'mssdk64_win7' loaded. Applying types...
+Types applied to 2131 names.
+PDB: loaded 0 types
+PDB: total 4420 symbols loaded for "C:\Users\User\Desktop\office-hooker\targets\kernel32.dll"
+Unknown debug info type 20 in IMAGE_DEBUG_DIRECTORY
+Plan  FLIRT signature: SEH for vc64 7-14
+Type library 'ntapi64_win7' loaded. Applying types...
+Types applied to 243 names.
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+File 'C:\Users\User\Desktop\office-hooker\targets\kernel32.dll' has been successfully loaded into the database.
+Hex-Rays Decompiler plugin has been loaded (v7.5.0.200519)
+  License: 55-3AC1-8BE4-84 Institute of Information Engineering,Chinese Academy of Sciences (1 user)
+  The hotkeys are F5: decompile, Ctrl-F5: decompile all.
+  Please check the Edit/Plugins menu for more informaton.
+IDAPython Hex-Rays bindings initialized.
+IDA is analysing the input file...
+You may start to explore the input file right now.
+Using FLIRT signature: SEH for vc64 7-14
+Propagating type information...
+Function argument information has been propagated
+The initial autoanalysis has been finished.
+Enum function list length: 2393
+Flushing buffers, please wait...ok
+Unloading IDP module C:\Program Files\IDA Pro 7.5\procs\pc64.dll...
+Possible file format: MS-DOS executable (EXE) (C:\Program Files\IDA Pro 7.5\loaders\dos64.dll)
+Possible file format: Portable executable for AMD64 (PE) (C:\Program Files\IDA Pro 7.5\loaders\pe64.dll)
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+  3080192   376 8192 allocating memory for b-tree...
+  3080192   376 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+  6422528            total memory allocated
+
+Loading file 'C:\Users\User\Desktop\office-hooker\targets\kernel32.dll' into database...
+Detected file format: Portable executable for AMD64 (PE)
+Loading processor module C:\Program Files\IDA Pro 7.5\procs\pc64.dll for metapc...Initializing processor module metapc...OK
+Autoanalysis subsystem has been initialized.
+  0. Creating a new segment  (0000000180001000-0000000180080000) ... ... OK
+  1. Creating a new segment  (0000000180080000-00000001800B3000) ... ... OK
+  2. Creating a new segment  (00000001800B3000-00000001800B5000) ... ... OK
+  3. Creating a new segment  (00000001800B5000-00000001800BB000) ... ... OK
+  4. Creating a new segment  (00000001800BB000-00000001800BC000) ... ... OK
+Reading exports directory...
+Reading imports directory...
+  5. Creating a new segment  (0000000180000000-0000000180001000) ... ... OK
+Reading exception directory (.pdata)...
+Applying fixups...
+  6. Creating a new segment  (0000000180084218-00000001800B3000) ... ... OK
+  7. Creating a new segment  (00000001800817C0-0000000180084218) ... ... OK
+  8. Creating a new segment  (00000001800BB060-00000001800BC000) ... ... OK
+The input file was linked with debug information
+ and the symbol filename is:
+"kernel32.pdb"
+Do you want to look for this file at the specified path
+and the Microsoft Symbol Server?
+ -> ~Y~es
+PDB: using PDBIDA provider
+PDB: loading C:\Users\User\AppData\Local\Temp\ida\kernel32.pdb\1DEB36EBC19F93893E14684776D19DB31\kernel32.pdb
+PDB: There is no type information
+Type library 'mssdk64_win7' loaded. Applying types...
+Types applied to 2131 names.
+PDB: loaded 0 types
+PDB: total 4420 symbols loaded for "C:\Users\User\Desktop\office-hooker\targets\kernel32.dll"
+Unknown debug info type 20 in IMAGE_DEBUG_DIRECTORY
+Plan  FLIRT signature: SEH for vc64 7-14
+Type library 'ntapi64_win7' loaded. Applying types...
+Types applied to 243 names.
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+File 'C:\Users\User\Desktop\office-hooker\targets\kernel32.dll' has been successfully loaded into the database.
+Hex-Rays Decompiler plugin has been loaded (v7.5.0.200519)
+  License: 55-3AC1-8BE4-84 Institute of Information Engineering,Chinese Academy of Sciences (1 user)
+  The hotkeys are F5: decompile, Ctrl-F5: decompile all.
+  Please check the Edit/Plugins menu for more informaton.
+IDAPython Hex-Rays bindings initialized.
+IDA is analysing the input file...
+You may start to explore the input file right now.
+Using FLIRT signature: SEH for vc64 7-14
+Propagating type information...
+Function argument information has been propagated
+The initial autoanalysis has been finished.
+Enum function list length: 2393
+Flushing buffers, please wait...ok
+Unloading IDP module C:\Program Files\IDA Pro 7.5\procs\pc64.dll...
